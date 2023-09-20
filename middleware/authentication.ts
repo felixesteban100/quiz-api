@@ -1,4 +1,4 @@
-import { Request, Response, NextFunction } from 'express';
+/* import { Request, Response, NextFunction } from 'express';
 // const User = require('../models/User')
 const jwt = require('jsonwebtoken')
 
@@ -36,4 +36,4 @@ function auth (req: Request, res: Response, next: NextFunction){
 
 } 
 
-module.exports = auth
+module.exports = auth */

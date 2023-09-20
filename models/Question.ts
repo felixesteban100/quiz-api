@@ -41,7 +41,7 @@ const QuestionSchema = new mongoose.Schema(
             required: false
         },
         createdBy: {
-            type: mongoose.Types.ObjectId,
+            type: String,
             ref: 'User',
             required: [true, 'Please provide user']
         }

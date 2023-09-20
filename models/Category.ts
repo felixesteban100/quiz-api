@@ -13,9 +13,9 @@ const CategorySchema = new mongoose.Schema(
             required: [true, 'Please provide an id for the category']
         },
         createdBy: {
-            type: mongoose.Types.ObjectId,
+            type: String,
             ref: 'User',
-            required: [true, 'Please provide user']
+            required: [true, 'Please provide userId']
         }
     },
     { timestamps: true }
