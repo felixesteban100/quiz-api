@@ -2,7 +2,6 @@ require('dotenv').config()
 require('express-async-errors')
 import { Request, Response, NextFunction } from 'express';
 import { ClerkExpressRequireAuth } from '@clerk/clerk-sdk-node';
-import mongoose from 'mongoose';
 
 // extra security package
 const helmet = require('helmet')
@@ -86,6 +85,8 @@ async function start() {
         console.log(error)
     }
 }
+
+// FIX THE DEPLOYMENT ONRENDER
 
 start()
 

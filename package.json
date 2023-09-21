@@ -32,5 +32,8 @@
     "typescript": "^5.2.2",
     "xss-clean": "^0.1.1",
     "yamljs": "^0.3.0"
+  },
+  "engines": {
+    "node": "v16.13.2"
   }
 }
